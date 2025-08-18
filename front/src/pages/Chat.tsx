@@ -1,4 +1,13 @@
+import {useState} from "react";
+
+interface MSG {
+    msg: string;
+    setMsg: (msg: string) => void;
+}
+
 const Chat = () => {
+
+    const [msg, setMsg] = useState<MSG['msg']>('')
 
 
     return (
