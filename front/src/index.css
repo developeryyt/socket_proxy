@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+#root {
+    height: 100%;
+}
+
+textarea {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+    appearance: none;
+    -webkit-appearance: none;
+    resize: none;
+    box-sizing: border-box;
+    color: #fff;
+    outline: none;
+}
+
+.container {
+    height: 100%;
+    _border: 1px solid red;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    border: 0;
+    background-color: transparent;
+    outline: 0;
+}
+
+.btn {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.chat {
+    position: relative;
+    min-width: 375px;
+    max-width: 480px;
+    height: 100%;
+    box-sizing: border-box;
+    border: 1px solid blue;
+}
+
+.chat .chat-input-box {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 180px;
+    _border: 1px solid black;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.chat .msg-wrap {
+    height: calc(100% - 40px);
+}
+
+.chat .msg-wrap textarea {
+    background-color: #392d2d;
+}
+
+.chat .util-wrap {
+    display: flex;
+    justify-content: flex-end;
+    height: 40px;
+    _background-color: red;
+}
+
+.txt {
+    padding: 14px;
+}
+
+.txt::placeholder {
+    color: #f0f0f0;
+}
+
+
+.util-wrap .btn {
+
+}
